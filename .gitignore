@@ -1,0 +1,40 @@
+# Кэш Python
+__pycache__/
+*.py[cod]
+
+# Локальные окружения Python
+.venv/
+venv/
+env/
+
+# Локальная база SQLite и временные файлы
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Секреты и переменные окружения
+.env
+.env.*
+!.env.example
+
+# Журналы
+*.log
+
+# Загруженные пользователями файлы и собранная статика
+/backend/media/
+/backend/staticfiles/
+
+# Локальные настройки редакторов
+.vscode/
+.idea/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Зависимости и сборка frontend
+node_modules/
+/frontend/dist/
+/frontend/build/
